@@ -1,4 +1,45 @@
-var p=Object.defineProperty;var a=(o,e)=>p(o,"name",{value:e,configurable:!0});import"./jsx-runtime.adda36d4.js";import{c as t,A as m,M as c}from"./Props.13743566.js";import"./iframe.734f45ba.js";import"./string.cf618ebb.js";import"./es.map.constructor.86a6c0ec.js";import"./es.number.to-fixed.54b1ee4f.js";const d="/assets/code-brackets.9ef6443e.svg",g="/assets/colors.ac9401f3.svg",u="/assets/comments.f15a6837.svg",h="/assets/direction.94a9917f.svg",f="/assets/flow.275142c6.svg",b="/assets/plugin.57148314.svg",k="/assets/repo.fb4ece47.svg",x="/assets/stackalt.2ad81543.svg";function i(){return i=Object.assign?Object.assign.bind():function(o){for(var e=1;e<arguments.length;e++){var n=arguments[e];for(var r in n)Object.prototype.hasOwnProperty.call(n,r)&&(o[r]=n[r])}return o},i.apply(this,arguments)}a(i,"_extends");const y={},w="wrapper";function l({components:o,...e}){return t(w,i({},y,e,{components:o,mdxType:"MDXLayout"}),t(c,{title:"Example/Introduction",mdxType:"Meta"}),t("style",null,`
+var p = Object.defineProperty
+var a = (o, e) => p(o, 'name', { value: e, configurable: !0 })
+import './jsx-runtime.adda36d4.js'
+import { c as t, A as m, M as c } from './Props.13743566.js'
+import './iframe.734f45ba.js'
+import './string.cf618ebb.js'
+import './es.map.constructor.86a6c0ec.js'
+import './es.number.to-fixed.54b1ee4f.js'
+const d = '/assets/code-brackets.9ef6443e.svg',
+	g = '/assets/colors.ac9401f3.svg',
+	u = '/assets/comments.f15a6837.svg',
+	h = '/assets/direction.94a9917f.svg',
+	f = '/assets/flow.275142c6.svg',
+	b = '/assets/plugin.57148314.svg',
+	k = '/assets/repo.fb4ece47.svg',
+	x = '/assets/stackalt.2ad81543.svg'
+function i() {
+	return (
+		(i = Object.assign
+			? Object.assign.bind()
+			: function (o) {
+					for (var e = 1; e < arguments.length; e++) {
+						var n = arguments[e]
+						for (var r in n) Object.prototype.hasOwnProperty.call(n, r) && (o[r] = n[r])
+					}
+					return o
+			  }),
+		i.apply(this, arguments)
+	)
+}
+a(i, '_extends')
+const y = {},
+	w = 'wrapper'
+function l({ components: o, ...e }) {
+	return t(
+		w,
+		i({}, y, e, { components: o, mdxType: 'MDXLayout' }),
+		t(c, { title: 'Example/Introduction', mdxType: 'Meta' }),
+		t(
+			'style',
+			null,
+			`
     .subheading {
       --mediumdark: '#999999';
       font-weight: 900;
@@ -98,8 +139,153 @@ var p=Object.defineProperty;var a=(o,e)=>p(o,"name",{value:e,configurable:!0});i
       font-size: 12px;
       display: inline-block;
     }
-  `),t("h1",null,"Welcome to Storybook"),t("p",null,`Storybook helps you build UI components in isolation from your app's business logic, data, and context.
-That makes it easy to develop hard-to-reach states. Save these UI states as `,t("strong",{parentName:"p"},"stories")," to revisit during development, testing, or QA."),t("p",null,`Browse example stories now by navigating to them in the sidebar.
-View their code in the `,t("inlineCode",{parentName:"p"},"stories"),` directory to learn how they work.
-We recommend building UIs with a `,t("a",{parentName:"p",href:"https://componentdriven.org"},t("strong",{parentName:"a"},"component-driven"))," process starting with atomic components and ending with pages."),t("div",{className:"subheading"},"Configure"),t("div",{className:"link-list"},t("a",{className:"link-item",href:"https://storybook.js.org/docs/react/addons/addon-types",target:"_blank"},t("img",{src:b,alt:"plugin"}),t("span",null,t("strong",null,"Presets for popular tools"),"Easy setup for TypeScript, SCSS and more.")),t("a",{className:"link-item",href:"https://storybook.js.org/docs/react/configure/webpack",target:"_blank"},t("img",{src:x,alt:"Build"}),t("span",null,t("strong",null,"Build configuration"),"How to customize webpack and Babel")),t("a",{className:"link-item",href:"https://storybook.js.org/docs/react/configure/styling-and-css",target:"_blank"},t("img",{src:g,alt:"colors"}),t("span",null,t("strong",null,"Styling"),"How to load and configure CSS libraries")),t("a",{className:"link-item",href:"https://storybook.js.org/docs/react/get-started/setup#configure-storybook-for-your-stack",target:"_blank"},t("img",{src:f,alt:"flow"}),t("span",null,t("strong",null,"Data"),"Providers and mocking for data libraries"))),t("div",{className:"subheading"},"Learn"),t("div",{className:"link-list"},t("a",{className:"link-item",href:"https://storybook.js.org/docs",target:"_blank"},t("img",{src:k,alt:"repo"}),t("span",null,t("strong",null,"Storybook documentation"),"Configure, customize, and extend")),t("a",{className:"link-item",href:"https://storybook.js.org/tutorials/",target:"_blank"},t("img",{src:h,alt:"direction"}),t("span",null,t("strong",null,"In-depth guides"),"Best practices from leading teams")),t("a",{className:"link-item",href:"https://github.com/storybookjs/storybook",target:"_blank"},t("img",{src:d,alt:"code"}),t("span",null,t("strong",null,"GitHub project"),"View the source and add issues")),t("a",{className:"link-item",href:"https://discord.gg/storybook",target:"_blank"},t("img",{src:u,alt:"comments"}),t("span",null,t("strong",null,"Discord chat"),"Chat with maintainers and the community"))),t("div",{className:"tip-wrapper"},t("span",{className:"tip"},"Tip"),"Edit the Markdown in"," ",t("code",null,"stories/Introduction.stories.mdx")))}a(l,"MDXContent");l.isMDXComponent=!0;const v=a(()=>{throw new Error("Docs-only story")},"__page");v.parameters={docsOnly:!0};const s={title:"Example/Introduction",includeStories:["__page"]},N={};s.parameters=s.parameters||{};s.parameters.docs={...s.parameters.docs||{},page:()=>t(m,{mdxStoryNameToKey:N,mdxComponentAnnotations:s},t(l,null))};const z=["__page"];export{z as __namedExportsOrder,v as __page,s as default};
+  `,
+		),
+		t('h1', null, 'Welcome to Storybook'),
+		t(
+			'p',
+			null,
+			`Storybook helps you build UI components in isolation from your app's business logic, data, and context.
+That makes it easy to develop hard-to-reach states. Save these UI states as `,
+			t('strong', { parentName: 'p' }, 'stories'),
+			' to revisit during development, testing, or QA.',
+		),
+		t(
+			'p',
+			null,
+			`Browse example stories now by navigating to them in the sidebar.
+View their code in the `,
+			t('inlineCode', { parentName: 'p' }, 'stories'),
+			` directory to learn how they work.
+We recommend building UIs with a `,
+			t(
+				'a',
+				{ parentName: 'p', href: 'https://componentdriven.org' },
+				t('strong', { parentName: 'a' }, 'component-driven'),
+			),
+			' process starting with atomic components and ending with pages.',
+		),
+		t('div', { className: 'subheading' }, 'Configure'),
+		t(
+			'div',
+			{ className: 'link-list' },
+			t(
+				'a',
+				{
+					className: 'link-item',
+					href: 'https://storybook.js.org/docs/react/addons/addon-types',
+					target: '_blank',
+				},
+				t('img', { src: b, alt: 'plugin' }),
+				t(
+					'span',
+					null,
+					t('strong', null, 'Presets for popular tools'),
+					'Easy setup for TypeScript, SCSS and more.',
+				),
+			),
+			t(
+				'a',
+				{
+					className: 'link-item',
+					href: 'https://storybook.js.org/docs/react/configure/webpack',
+					target: '_blank',
+				},
+				t('img', { src: x, alt: 'Build' }),
+				t(
+					'span',
+					null,
+					t('strong', null, 'Build configuration'),
+					'How to customize webpack and Babel',
+				),
+			),
+			t(
+				'a',
+				{
+					className: 'link-item',
+					href: 'https://storybook.js.org/docs/react/configure/styling-and-css',
+					target: '_blank',
+				},
+				t('img', { src: g, alt: 'colors' }),
+				t('span', null, t('strong', null, 'Styling'), 'How to load and configure CSS libraries'),
+			),
+			t(
+				'a',
+				{
+					className: 'link-item',
+					href: 'https://storybook.js.org/docs/react/get-started/setup#configure-storybook-for-your-stack',
+					target: '_blank',
+				},
+				t('img', { src: f, alt: 'flow' }),
+				t('span', null, t('strong', null, 'Data'), 'Providers and mocking for data libraries'),
+			),
+		),
+		t('div', { className: 'subheading' }, 'Learn'),
+		t(
+			'div',
+			{ className: 'link-list' },
+			t(
+				'a',
+				{ className: 'link-item', href: 'https://storybook.js.org/docs', target: '_blank' },
+				t('img', { src: k, alt: 'repo' }),
+				t(
+					'span',
+					null,
+					t('strong', null, 'Storybook documentation'),
+					'Configure, customize, and extend',
+				),
+			),
+			t(
+				'a',
+				{ className: 'link-item', href: 'https://storybook.js.org/tutorials/', target: '_blank' },
+				t('img', { src: h, alt: 'direction' }),
+				t('span', null, t('strong', null, 'In-depth guides'), 'Best practices from leading teams'),
+			),
+			t(
+				'a',
+				{
+					className: 'link-item',
+					href: 'https://github.com/storybookjs/storybook',
+					target: '_blank',
+				},
+				t('img', { src: d, alt: 'code' }),
+				t('span', null, t('strong', null, 'GitHub project'), 'View the source and add issues'),
+			),
+			t(
+				'a',
+				{ className: 'link-item', href: 'https://discord.gg/storybook', target: '_blank' },
+				t('img', { src: u, alt: 'comments' }),
+				t(
+					'span',
+					null,
+					t('strong', null, 'Discord chat'),
+					'Chat with maintainers and the community',
+				),
+			),
+		),
+		t(
+			'div',
+			{ className: 'tip-wrapper' },
+			t('span', { className: 'tip' }, 'Tip'),
+			'Edit the Markdown in',
+			' ',
+			t('code', null, 'stories/Introduction.stories.mdx'),
+		),
+	)
+}
+a(l, 'MDXContent')
+l.isMDXComponent = !0
+const v = a(() => {
+	throw new Error('Docs-only story')
+}, '__page')
+v.parameters = { docsOnly: !0 }
+const s = { title: 'Example/Introduction', includeStories: ['__page'] },
+	N = {}
+s.parameters = s.parameters || {}
+s.parameters.docs = {
+	...(s.parameters.docs || {}),
+	page: () => t(m, { mdxStoryNameToKey: N, mdxComponentAnnotations: s }, t(l, null)),
+}
+const z = ['__page']
+export { z as __namedExportsOrder, v as __page, s as default }
 //# sourceMappingURL=Introduction.stories.07346fd8.js.map
